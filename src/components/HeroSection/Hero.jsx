@@ -1,31 +1,32 @@
-import pp from "../../assets/pp.jpg"
+import pp from "../../assets/pp.jpg";
 
 export default function Hero() {
   return (
-    <div className="mt-25 flex justify-center">
-      <div className="w-full max-w-xl text-left pl-20">
+    <div className="flex justify-center mt-21 md:mt-25 px-8">
+      <div className="w-full max-w-2xl text-left md:pl-32">
         <img
-          src={pp} // Replace with your image
+          src={pp}
           alt="avatar"
-          className="w-30 h-30 rounded-full mb-6"
+          className="w-26 h-26 md:w-27 md:h-27 rounded-full mb-6 md:mb-6"
         />
-        <h1 className="text-4xl font-bold text-black">
-          Hey, I'm Tanish.
+        <h1 className="text-2xl md:text-5xl font-bold text-black leading-tight">
+          Hey, I'm Tanish. 
           <br />
-          Engineer & Web Developer.
+          Engineer & Developer.
         </h1>
-        <p className="text-gray-500 text-md mt-4 leading-relaxed">
+        <p className="text-gray-500 text-base md:text-md mt-4 md:mt-4 leading-relaxed">
           Most designers can't code. Most developers can't design. I do both.
           <br />
           3 years turning ideas into profitable products.
         </p>
-        <div className="mt-6 flex gap-4">
-          <button className="bg-black text-white px-5 py-2.5 rounded-xl hover:bg-gray-800 transition text-sm font-medium">
+        <div className="mt-6 md:mt-6 flex gap-3 flex-wrap">
+          <button className="bg-black text-white px-15 py-3 md:px-5 md:py-2.5 rounded-xl hover:bg-gray-800 transition text-la md:text-sm font-medium">
             Hire me
           </button>
-          <span className="bg-green-100 text-green-800 px-5 py-2.5 rounded-xl text-sm font-medium">
-            ● Open to Opportunities
-          </span>
+          <div className="bg-green-100 text-green-800 px-5 py-3 md:px-5 md:py-2.5 rounded-full text-la md:text-sm font-medium flex items-center gap-2">
+            <div className="w-2 h-2 bg-green-600 rounded-full"></div>
+            <span>Available</span>
+          </div>
         </div>
       </div>
     </div>
