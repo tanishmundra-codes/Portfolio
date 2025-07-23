@@ -10,7 +10,7 @@ function About() {
                 
                 <div className="space-y-6 text-gray-600 leading-relaxed">
                     <p>
-                        I'm Miraya. Design engineer in Düsseldorf, born in Sweden.
+                        I'm Tanish. Web Devloper in India, born in Rajasthan.
                     </p>
                     
                     <p>
@@ -25,22 +25,16 @@ function About() {
                     </p>
                     
                     <p>
-                        I've built a 130K+ developer community on social media because I actually 
-                        know what I'm talking about. My open-source projects prove it.
+                        I actually know what I'm talking about. My open-source projects prove it.
                     </p>
                     
                     <p>
                         The result? Interfaces that don't just impress your users - they convert them.
                     </p>
                     
-                    <p>
-                        <a href="#" className="text-blue-500 hover:text-blue-700 underline transition-colors">
-                            I also blog about design, development, and everything in between.
-                        </a>
-                    </p>
                     
                     <p>
-                        When I'm not coding, I'm at the gym or watching anime. Hot chocolate over 
+                        When I'm not coding, I'm at the gym or playing game. Tea over 
                         coffee, always.
                     </p>
                 </div>
