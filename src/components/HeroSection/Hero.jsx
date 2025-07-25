@@ -20,7 +20,7 @@ export default function Hero() {
         </p>
         <div className="mt-6 md:mt-6 flex gap-3 flex-wrap">
 
-          <button className="bg-black text-white px-15 py-3 md:px-5 md:py-2.5 rounded-xl hover:bg-gray-800 transition text-la md:text-sm font-medium">
+          <button className="bg-black text-white px-6 py-3 md:px-5 md:py-2.5 rounded-xl hover:bg-gray-800 transition text-base md:text-sm font-medium">
             <a
               href="https://www.linkedin.com/in/tanishmundra"
               target="_blank"

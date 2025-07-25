@@ -59,7 +59,7 @@ export default function Header() {
            
             <a href="https://x.com/tanishshh" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
               <Twitter className="w-6 h-6 text-gray-800 hover:text-gray-600" />
-              <span className="text-gray-800 font-medium">TikTok</span>
+              <span className="text-gray-800 font-medium">Twitter</span>
             </a>
             
             <a href="www.linkedin.com/in/tanishmundra" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
